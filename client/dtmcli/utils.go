@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
 	"github.com/go-resty/resty/v2"
+	"github.com/sllt/dtm/client/dtmcli/dtmimp"
 )
 
 // MustGenGid generate a new gid

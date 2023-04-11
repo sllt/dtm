@@ -11,11 +11,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dtm-labs/dtm/client/dtmcli"
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/client/dtmgrpc"
-	"github.com/dtm-labs/dtm/dtmutil"
-	"github.com/dtm-labs/dtm/test/busi"
+	"github.com/sllt/dtm/client/dtmcli"
+	"github.com/sllt/dtm/client/dtmcli/dtmimp"
+	"github.com/sllt/dtm/client/dtmgrpc"
+	"github.com/sllt/dtm/dtmutil"
+	"github.com/sllt/dtm/test/busi"
 	"github.com/stretchr/testify/assert"
 )
 

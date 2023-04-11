@@ -11,7 +11,7 @@ Quick start for workflow using http can be found here: [https://github.com/dtm-l
 
 Quick start for workflow using grpc can be found here: [https://github.com/dtm-labs/quick-start-sample/tree/main/workflow-grpc](https://github.com/dtm-labs/quick-start-sample/tree/main/workflow-grpc)
 
-Detailed examples can be found here: [https://github.com/dtm-labs/dtm-examples](https://github.com/dtm-labs/dtm-examples)
+Detailed examples can be found here: [https://github.com/sllt/dtm-examples](https://github.com/sllt/dtm-examples)
 
 
 ## dtmcli
@@ -19,13 +19,13 @@ dtmcli is the http client for patterns: saga, tcc, msg, xa
 
 Quick start for dtmcli can be found here: [https://github.com/dtm-labs/quick-start-sample/tree/main/dtmcli-qs](https://github.com/dtm-labs/quick-start-sample/tree/main/dtmcli-qs)
 
-Detailed examples can be found here: [https://github.com/dtm-labs/dtm-examples](https://github.com/dtm-labs/dtm-examples)
+Detailed examples can be found here: [https://github.com/sllt/dtm-examples](https://github.com/sllt/dtm-examples)
 
 ## dtmgrpc
 dtmcli is the grpc client for patterns: saga, tcc, msg, xa
 
 Quick start for dtmgrpc can be found here: [https://github.com/dtm-labs/quick-start-sample/tree/main/dtmgrpc-qs](https://github.com/dtm-labs/quick-start-sample/tree/main/dtmgrpc-qs)
 
-Detailed examples can be found here: [https://github.com/dtm-labs/dtm-examples](https://github.com/dtm-labs/dtm-examples)
+Detailed examples can be found here: [https://github.com/sllt/dtm-examples](https://github.com/sllt/dtm-examples)
 
 

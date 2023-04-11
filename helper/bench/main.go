@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/dtm-labs/dtm/client/dtmcli"
-	"github.com/dtm-labs/dtm/dtmsvr"
-	"github.com/dtm-labs/dtm/dtmsvr/config"
-	"github.com/dtm-labs/dtm/dtmsvr/storage/registry"
-	"github.com/dtm-labs/dtm/helper/bench/svr"
-	"github.com/dtm-labs/dtm/test/busi"
 	"github.com/dtm-labs/logger"
+	"github.com/sllt/dtm/client/dtmcli"
+	"github.com/sllt/dtm/dtmsvr"
+	"github.com/sllt/dtm/dtmsvr/config"
+	"github.com/sllt/dtm/dtmsvr/storage/registry"
+	"github.com/sllt/dtm/helper/bench/svr"
+	"github.com/sllt/dtm/test/busi"
 )
 
 var usage = `bench is a bench test server for dtmf

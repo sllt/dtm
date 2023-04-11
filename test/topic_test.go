@@ -6,12 +6,12 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/dtm-labs/dtm/client/dtmcli"
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/client/dtmgrpc/dtmgimp"
-	"github.com/dtm-labs/dtm/client/dtmgrpc/dtmgpb"
-	"github.com/dtm-labs/dtm/dtmutil"
 	"github.com/pkg/errors"
+	"github.com/sllt/dtm/client/dtmcli"
+	"github.com/sllt/dtm/client/dtmcli/dtmimp"
+	"github.com/sllt/dtm/client/dtmgrpc/dtmgimp"
+	"github.com/sllt/dtm/client/dtmgrpc/dtmgpb"
+	"github.com/sllt/dtm/dtmutil"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -1,11 +1,11 @@
 ![license](https://img.shields.io/github/license/dtm-labs/dtm)
-![Build Status](https://github.com/dtm-labs/dtm/actions/workflows/tests.yml/badge.svg?branch=main)
+![Build Status](https://github.com/sllt/dtm/actions/workflows/tests.yml/badge.svg?branch=main)
 [![codecov](https://codecov.io/gh/dtm-labs/dtm/branch/main/graph/badge.svg?token=UKKEYQLP3F)](https://codecov.io/gh/dtm-labs/dtm)
-[![Go Report Card](https://goreportcard.com/badge/github.com/dtm-labs/dtm)](https://goreportcard.com/report/github.com/dtm-labs/dtm)
-[![Go Reference](https://pkg.go.dev/badge/github.com/dtm-labs/dtm.svg)](https://pkg.go.dev/github.com/dtm-labs/dtm)
+[![Go Report Card](https://goreportcard.com/badge/github.com/sllt/dtm)](https://goreportcard.com/report/github.com/sllt/dtm)
+[![Go Reference](https://pkg.go.dev/badge/github.com/sllt/dtm.svg)](https://pkg.go.dev/github.com/sllt/dtm)
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go#database)
 
-English | [简体中文](https://github.com/dtm-labs/dtm/blob/main/helper/README-cn.md)
+English | [简体中文](https://github.com/sllt/dtm/blob/main/helper/README-cn.md)
 
 # Distributed Transactions Manager
 
@@ -48,7 +48,7 @@ DTM can be applied to data consistency issues in a large number of scenarios, he
 ### run dtm
 
 ``` bash
-git clone https://github.com/dtm-labs/dtm && cd dtm
+git clone https://github.com/sllt/dtm && cd dtm
 go run main.go
 ```
 
@@ -115,7 +115,7 @@ we can see in the console that services `TransOut`, `TransIn`, `TransOutRevert` 
 ## More examples
 If you want more quick start examples, please refer to [dtm-labs/quick-start-sample](https://github.com/dtm-labs/quick-start-sample)
 
-The above example mainly demonstrates the flow of a distributed transaction. More on this, including practical examples of how to interact with an actual database, how to do compensation, how to do rollback, etc. please refer to [dtm-examples](https://github.com/dtm-labs/dtm-examples) for more examples.
+The above example mainly demonstrates the flow of a distributed transaction. More on this, including practical examples of how to interact with an actual database, how to do compensation, how to do rollback, etc. please refer to [dtm-examples](https://github.com/sllt/dtm-examples) for more examples.
 
 ## Chat Group
 

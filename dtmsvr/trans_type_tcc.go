@@ -3,9 +3,9 @@ package dtmsvr
 import (
 	"fmt"
 
-	"github.com/dtm-labs/dtm/client/dtmcli"
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
 	"github.com/dtm-labs/logger"
+	"github.com/sllt/dtm/client/dtmcli"
+	"github.com/sllt/dtm/client/dtmcli/dtmimp"
 )
 
 type transTccProcessor struct {

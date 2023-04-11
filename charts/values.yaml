@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 
 # DTM configuration. Specify content for config.yaml
-# ref: https://github.com/dtm-labs/dtm/blob/main/conf.sample.yml
+# ref: https://github.com/sllt/dtm/blob/main/conf.sample.yml
 configuration: |-
   Store: # specify which engine to store trans status
     Driver: 'boltdb' # default store engine

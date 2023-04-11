@@ -26,7 +26,7 @@ helm delete -n dtm-system dtm
 
 | Key             | Description                                                                                                                           | Value |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------|-------|
-| `configuration` | DTM configuration. Specify content for `config.yaml`, ref: [sample config](https://github.com/dtm-labs/dtm/blob/main/conf.sample.yml) | `""`  |
+| `configuration` | DTM configuration. Specify content for `config.yaml`, ref: [sample config](https://github.com/sllt/dtm/blob/main/conf.sample.yml) | `""`  |
 
 
 

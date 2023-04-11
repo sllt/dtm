@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/dtm-labs/dtm/client/workflow"
+	"github.com/sllt/dtm/client/workflow"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 )

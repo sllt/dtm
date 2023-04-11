@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/dtmsvr/storage"
-	"github.com/dtm-labs/dtm/dtmutil"
 	"github.com/dtm-labs/logger"
+	"github.com/sllt/dtm/client/dtmcli/dtmimp"
+	"github.com/sllt/dtm/dtmsvr/storage"
+	"github.com/sllt/dtm/dtmutil"
 	bolt "go.etcd.io/bbolt"
 )
 
@@ -68,7 +68,8 @@ func initializeBuckets(db *bolt.DB) error {
 }
 
 // cleanupExpiredData will clean the expired data in boltdb, the
-//    expired time is configurable.
+//
+//	expired time is configurable.
 func cleanupExpiredData(expire time.Duration, db *bolt.DB) error {
 	if expire <= 0 {
 		return nil

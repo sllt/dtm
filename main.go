@@ -22,11 +22,11 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/dtm-labs/dtm/dtmsvr/config"
-	"github.com/dtm-labs/dtm/dtmsvr/entry"
-	_ "github.com/dtm-labs/dtm/dtmsvr/microservices"
 	"github.com/dtm-labs/logger"
 	"github.com/gin-gonic/gin"
+	"github.com/sllt/dtm/dtmsvr/config"
+	"github.com/sllt/dtm/dtmsvr/entry"
+	_ "github.com/sllt/dtm/dtmsvr/microservices"
 )
 
 // Version defines version info. It is set by -ldflags.

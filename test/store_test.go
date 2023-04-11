@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/dtmsvr/storage"
-	"github.com/dtm-labs/dtm/dtmsvr/storage/registry"
-	"github.com/dtm-labs/dtm/dtmutil"
+	"github.com/sllt/dtm/client/dtmcli/dtmimp"
+	"github.com/sllt/dtm/dtmsvr/storage"
+	"github.com/sllt/dtm/dtmsvr/storage/registry"
+	"github.com/sllt/dtm/dtmutil"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dtm-labs/dtm/client/dtmcli"
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/dtmsvr"
-	"github.com/dtm-labs/dtm/dtmsvr/storage"
+	"github.com/sllt/dtm/client/dtmcli"
+	"github.com/sllt/dtm/client/dtmcli/dtmimp"
+	"github.com/sllt/dtm/dtmsvr"
+	"github.com/sllt/dtm/dtmsvr/storage"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -7,7 +7,7 @@
 package dtmcli
 
 import (
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
+	"github.com/sllt/dtm/client/dtmcli/dtmimp"
 )
 
 const (

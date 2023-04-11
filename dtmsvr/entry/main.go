@@ -7,12 +7,12 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/dtmsvr"
-	"github.com/dtm-labs/dtm/dtmsvr/config"
-	"github.com/dtm-labs/dtm/dtmsvr/storage/registry"
 	"github.com/dtm-labs/logger"
 	"github.com/gin-gonic/gin"
+	"github.com/sllt/dtm/client/dtmcli/dtmimp"
+	"github.com/sllt/dtm/dtmsvr"
+	"github.com/sllt/dtm/dtmsvr/config"
+	"github.com/sllt/dtm/dtmsvr/storage/registry"
 	"go.uber.org/automaxprocs/maxprocs"
 )
 

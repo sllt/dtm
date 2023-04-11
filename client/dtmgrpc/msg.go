@@ -11,9 +11,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dtm-labs/dtm/client/dtmcli"
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/client/dtmgrpc/dtmgimp"
+	"github.com/sllt/dtm/client/dtmcli"
+	"github.com/sllt/dtm/client/dtmcli/dtmimp"
+	"github.com/sllt/dtm/client/dtmgrpc/dtmgimp"
 	grpc "google.golang.org/grpc"
 	"google.golang.org/protobuf/proto"
 )

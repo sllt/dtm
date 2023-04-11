@@ -10,11 +10,11 @@ import (
 	"database/sql"
 	"testing"
 
-	"github.com/dtm-labs/dtm/client/dtmcli"
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/client/workflow"
-	"github.com/dtm-labs/dtm/test/busi"
 	"github.com/dtm-labs/logger"
+	"github.com/sllt/dtm/client/dtmcli"
+	"github.com/sllt/dtm/client/dtmcli/dtmimp"
+	"github.com/sllt/dtm/client/workflow"
+	"github.com/sllt/dtm/test/busi"
 	"github.com/stretchr/testify/assert"
 )
 

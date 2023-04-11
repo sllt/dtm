@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/dtm-labs/dtm/client/dtmcli"
+	"github.com/sllt/dtm/client/dtmcli"
 )
 
 // TestNewMsgGrpc ut for NewMsgGrpc

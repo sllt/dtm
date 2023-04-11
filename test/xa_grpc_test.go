@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/client/dtmgrpc"
-	"github.com/dtm-labs/dtm/test/busi"
+	"github.com/sllt/dtm/client/dtmcli/dtmimp"
+	"github.com/sllt/dtm/client/dtmgrpc"
+	"github.com/sllt/dtm/test/busi"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/types/known/emptypb"
 )

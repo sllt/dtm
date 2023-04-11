@@ -5,11 +5,11 @@ import (
 
 	"github.com/dtm-labs/logger"
 
-	"github.com/dtm-labs/dtm/dtmsvr/config"
-	"github.com/dtm-labs/dtm/dtmsvr/storage"
-	"github.com/dtm-labs/dtm/dtmsvr/storage/boltdb"
-	"github.com/dtm-labs/dtm/dtmsvr/storage/redis"
-	"github.com/dtm-labs/dtm/dtmsvr/storage/sql"
+	"github.com/sllt/dtm/dtmsvr/config"
+	"github.com/sllt/dtm/dtmsvr/storage"
+	"github.com/sllt/dtm/dtmsvr/storage/boltdb"
+	"github.com/sllt/dtm/dtmsvr/storage/redis"
+	"github.com/sllt/dtm/dtmsvr/storage/sql"
 )
 
 var conf = &config.Config

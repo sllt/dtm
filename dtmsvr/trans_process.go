@@ -11,10 +11,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/dtm-labs/dtm/client/dtmcli"
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/dtmutil"
 	"github.com/dtm-labs/logger"
+	"github.com/sllt/dtm/client/dtmcli"
+	"github.com/sllt/dtm/client/dtmcli/dtmimp"
+	"github.com/sllt/dtm/dtmutil"
 )
 
 // Process process global transaction once
